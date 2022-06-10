@@ -1,1 +1,12 @@
-ReactDOM.render(<ul><li>Buddy is the cutest puppy</li><li>He is also the smelliest</li></ul>, document.getElementById('root'))
+function MainContent () {
+    return (
+        <h1>I'm learning React!</h1>
+    )
+}
+
+ReactDOM.render(
+    <div>
+        <MainContent />
+    </div>,
+    document.getElementById('root')
+)
