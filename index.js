@@ -1,0 +1,1 @@
+ReactDOM.render(<ul><li>Buddy is the cutest puppy</li><li>He is also the smelliest</li></ul>, document.getElementById('root'))
