@@ -1,12 +1,18 @@
-const navBar = (
-    <nav>
-        <h1>Buddy the Beagle</h1>
+const expr = (
+    <div className="container">
+        <img src='./react-logo.png' width='40px'/>
+        <h1>Fun facts about React</h1>
         <ul>
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100k stars on Github</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powers thousands of enterprise apps, including mobile apps</li>
         </ul>
-    </nav>
+    </div>
 )
 
-ReactDOM.render(navBar, document.getElementById('root'))
+ReactDOM.render(
+    expr,
+    document.getElementById('root')
+)
