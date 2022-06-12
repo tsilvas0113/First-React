@@ -1,8 +1,13 @@
 function Header () {
     return (
         <header>
-            <nav>
-                <img src='./react-logo.png' width='50px' />
+            <nav className='nav'>
+                <img className='logo' src='./react-logo.png' />
+                <ul className='nav-items'>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
@@ -11,8 +16,8 @@ function Header () {
 function MainContent () {
     return (
         <div>
-            <h1>Reasons I'm excited to learn React</h1>
-            <ol>
+            <h1 className='title'>Reasons I'm excited to learn React</h1>
+            <ol className='main-items'>
                 <li>React is cool</li>
                 <li>React can get me hired</li>
                 <li>React can make great looking sites</li>
@@ -23,7 +28,7 @@ function MainContent () {
 
 function Footer () {
     return (
-        <footer>
+        <footer className='footer'>
             <small>© 2022 Silvas development. All rights reserved.</small>
         </footer>
     )
